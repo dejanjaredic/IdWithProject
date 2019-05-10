@@ -1,0 +1,27 @@
+﻿{
+  "iisSettings": {
+    "windowsAuthentication": false, 
+    "anonymousAuthentication": true, 
+    "iisExpress": {
+      "applicationUrl": "https://localhost:49737",
+      "sslPort": 44314
+    }
+  },
+  "profiles": {
+    "IIS Express": {
+      "commandName": "IISExpress",
+      "launchBrowser": true,
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      }
+    },
+    "IdentityServer2Test": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "applicationUrl": "https://localhost:49737",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      }
+    }
+  }
+}

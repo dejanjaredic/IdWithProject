@@ -1,0 +1,35 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+    <AspNetCoreHostingModel>InProcess</AspNetCoreHostingModel>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Abp.Castle.Log4Net" Version="4.5.0" />
+    <PackageReference Include="Abp.ZeroCore.IdentityServer4" Version="4.5.0" />
+    <PackageReference Include="Abp.ZeroCore.IdentityServer4.EntityFrameworkCore" Version="4.5.0" />
+    <PackageReference Include="IdentityServer4" Version="2.4.0" />
+    <PackageReference Include="IdentityServer4.AccessTokenValidation" Version="2.7.0" />
+    <PackageReference Include="IdentityServer4.EntityFramework" Version="2.4.0" />
+    <PackageReference Include="IdentityServer4.EntityFramework.Storage" Version="2.4.0" />
+    <PackageReference Include="Microsoft.AspNetCore.App" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity" Version="2.2.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc" Version="2.2.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.2.0" PrivateAssets="All" />
+    <PackageReference Include="Microsoft.AspNetCore.StaticFiles" Version="2.2.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\TestProject\4.6.0\aspnet-core\src\TestProject.Core\TestProject.Core.csproj" />
+    <ProjectReference Include="..\..\TestProject\4.6.0\aspnet-core\src\TestProject.EntityFrameworkCore\TestProject.EntityFrameworkCore.csproj" />
+    <ProjectReference Include="..\..\TestProject\4.6.0\aspnet-core\src\TestProject.Web.Core\TestProject.Web.Core.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Abp.AspNetCore">
+      <HintPath>C:\Users\Bild081\.nuget\packages\abp.aspnetcore\4.5.0\lib\netstandard2.0\Abp.AspNetCore.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
